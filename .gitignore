@@ -1,3 +1,36 @@
+# System files
 .DS_Store
-fig5/
-fig6/
+*.swp
+*.swo
+*~
+
+# Large video files (exclude from repo)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+
+# Large binary simulation files (exclude from repo)
+*.go
+*.bin
+
+# Temporary and cache files
+*.tmp
+*.cache
+__pycache__/
+*.pyc
+
+# Large intermediate data directories (keep summary files only)
+fig5/IFNclr3_30runs_global_celltocell_tau95_option1/IFNclr3_30runs_global_celltocell_tau95_option1_*/
+fig5/IFNclr3_30runs_global_celltocell_tau95_option1/IFNclr3_30runs_global_celltocell_tau95_option1_[0-9]*/
+fig5/IFNclr3_30runs_global_celltocell_tau95_option1/noRandomness/
+fig5/IFNclr3_30runs_global_celltocell_tau95_option1/IFNclr3_30runs_global_celltocell_tau95_option1/
+fig6/detials/
+
+# Keep summary and result files
+!*summary*.csv
+!*_result*.csv
+!*_analysis*.csv
+!*_plot*.png
+!*_plot*.pdf
