@@ -3,6 +3,7 @@
 We ran the stochastic spatial simulation many times (40 runs) and got a wide range of outcomes. Since it's stochastic, each run can look pretty different depending on where virions and DIPs happen to land and spread.
 
 We picked 6 representative snapshots (`represent1.png` ~ `represent6.png`) to show this variability.
+This is ONLY for Visulisation. There are many possibilities.
 
 ## IMP: Why the results vary so much
 
